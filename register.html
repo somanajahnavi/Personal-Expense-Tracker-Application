@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="login">
+        <div class="container">
+            <h1>Register</h1>
+            <form method="POST">
+                <input type="email" name="username" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <input type="checkbox"><span>Remember me</span>
+                <a href="#">Forgot password?</a>
+                <button type="submit">Register</button>
+            </form>
+            <hr><p>Or Connect With</p><hr>
+            <ul>
+                <li><i class="fab fa-facebook-f fa-2x"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-github fa-2x"></i></li>
+                <li><i class="fab fa-linkedin-in fa-2x"></i></li>
+            </ul>
+            <div class="clearfix"></div>
+            <span class="copyright">&copy;2025</span>
+        </div>
+    </div>
+    <div class="register">
+        <div class="container">
+            <i class="fas fa-user-plus fa-5x"></i>
+            <h2>Hello, Friend!</h2>
+            <p>Already have an account? Log in to continue</p>
+            <a href="/login">
+                <button>Login <i class="fas fa-arrow-circle-right"></i></button>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
