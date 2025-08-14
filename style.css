@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ Navigation links */
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* ✅ Scoped ONLY to Add Transaction page */
+.add-page {
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======================
+   Add Transaction Styles
+   ====================== */
+.add-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.add-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.add-container input,
+.add-container select,
+.add-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-container button:hover {
+    background-color: #45a049;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6a1b9a;
+    text-decoration: none;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* ======================
+   Login & Register Styles
+   ====================== */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    height: 100%;
+    
+}
+
+.login, .register {
+    width: 50%;
+}
+
+.login {
+    float: left;
+    background-color: #fafafa;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.login h1 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #eeeeef;
+}
+
+input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+.login span {
+    float: left;
+}
+
+.login a {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s all ease-in-out;
+}
+
+.login a:hover {
+    color: #9526a9;
+    font-weight: bold;
+}
+
+.login button {
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px;
+    border: none;
+    background-color: #9526a9;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.login button:hover {
+    width: 97%;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(142, 58, 165, 0.7);
+    
+}
+
+.login hr {
+    width: 30%;
+    display: inline-block;
+}
+
+.login p {
+    display: inline-block;
+    margin: 0px 10px 30px;
+}
+
+.login ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.login ul li {
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.login ul li:hover {
+    opacity: 0.6;
+}
+.login ul li:last-child {
+    margin-right: 0;
+}
+
+.login .copyright {
+    display: inline-block;
+    float: none;
+}
+
+.register {
+    float: right;
+    background-image: linear-gradient(135deg, #23212f 5%, #8a219d 95%);
+    height: 100%;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.register h2 {
+    margin: 30px 0;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.register p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.register button {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.2s all ease-in-out;
+}
+
+.register button:hover {
+    color: #9526a9;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+/* ================================
+   Add Transaction Form Styles Only
+   ================================ */
+.add-page {
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.add-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.add-container input,
+.add-container select,
+.add-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-container button:hover {
+    background-color: #45a049;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6a1b9a;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
